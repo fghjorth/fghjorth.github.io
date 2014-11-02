@@ -1,4 +1,4 @@
-setwd("~/fhjorth.github.io")
+setwd("/Users/frederikhjorth/GitHub/fghjorth.github.io")
 pf<-read.csv("peffleyhurwitz.csv",sep=";",dec=",")
 require(ggplot2)
 png("pf.png",height=240)
@@ -11,4 +11,4 @@ ggplot(pf,aes(x=blackster,y=noinner)) +
   annotate("text", x=18, y=.5, label = "\"inner city\"") +
   annotate("text", x=21, y=.22, label = "no \"inner city\"",color="#666666")
 dev.off()
-?png
+
