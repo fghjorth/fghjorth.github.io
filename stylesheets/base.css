@@ -53,7 +53,8 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 13px/21px "Raleway","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 13px/21px "Lato","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		/* "Raleway", */
 		color: #333;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -64,8 +65,8 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #333333;
-		font-family: "Trocchi","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		/*"Copse", "Roboto Slab", "Headland One", "Garamond", "Georgia", serif; */
+		font-family: "Adamina","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		/* "Trocchi", "Copse", "Roboto Slab", "Headland One", "Garamond", "Georgia", serif; */
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 42px; line-height: 46px; margin-bottom: 10px; font-weight: bold;letter-spacing:-2px;}
