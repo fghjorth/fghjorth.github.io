@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kids Gymnastics Options near Sankt Hans Torv, Copenhagen</title>
+  <style>
+    :root {
+      --ink: #17212b;
+      --muted: #667085;
+      --line: #d9e1e8;
+      --paper: #f7f9fb;
+      --panel: #ffffff;
+      --green: #11785f;
+      --blue: #295f98;
+      --amber: #a15c00;
+      --red: #9a3412;
+      --soft-green: #e9f6f0;
+      --soft-blue: #eaf1fb;
+      --soft-amber: #fff4df;
+      --soft-red: #fff0ea;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 650;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 32px 22px 54px;
+    }
+
+    header {
+      display: grid;
+      gap: 18px;
+      padding: 26px 0 18px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      color: var(--green);
+      font-weight: 760;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 880px;
+      font-size: clamp(31px, 5vw, 52px);
+      line-height: 1.06;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 880px;
+      color: #3d4a56;
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .meta {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 13px 14px;
+      min-height: 78px;
+    }
+
+    .meta .label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 740;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-bottom: 3px;
+    }
+
+    .meta .value {
+      font-size: 15px;
+      font-weight: 720;
+    }
+
+    section {
+      margin-top: 28px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 24px;
+      letter-spacing: 0;
+    }
+
+    .note {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--amber);
+      border-radius: 8px;
+      padding: 15px 16px;
+      color: #3d4a56;
+      margin: 16px 0 0;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      display: grid;
+      gap: 14px;
+      box-shadow: 0 10px 25px rgba(16, 24, 40, .05);
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      margin-top: -7px;
+      font-size: 14px;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      border-radius: 999px;
+      padding: 5px 10px;
+      font-size: 13px;
+      font-weight: 740;
+      border: 1px solid transparent;
+    }
+
+    .best {
+      background: var(--soft-green);
+      color: var(--green);
+      border-color: #bee7d3;
+    }
+
+    .good {
+      background: var(--soft-blue);
+      color: var(--blue);
+      border-color: #c7d9f0;
+    }
+
+    .watch {
+      background: var(--soft-amber);
+      color: var(--amber);
+      border-color: #f3d69b;
+    }
+
+    .weak {
+      background: var(--soft-red);
+      color: var(--red);
+      border-color: #f4c3b4;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .fact {
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+    }
+
+    .fact .k {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      font-weight: 760;
+    }
+
+    .fact .v {
+      margin-top: 2px;
+      font-weight: 680;
+      font-size: 14px;
+    }
+
+    .card p {
+      margin: 0;
+      color: #344250;
+    }
+
+    .recommendation {
+      border-left: 4px solid var(--green);
+      padding-left: 12px;
+      font-weight: 680;
+      color: #263541;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(16, 24, 40, .04);
+    }
+
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 12px 13px;
+      border-bottom: 1px solid var(--line);
+      font-size: 14px;
+    }
+
+    th {
+      color: #31404c;
+      background: #edf3f8;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .rank {
+      font-weight: 800;
+      color: var(--green);
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .source-list {
+      columns: 2;
+      column-gap: 30px;
+      padding-left: 18px;
+    }
+
+    .source-list li {
+      break-inside: avoid;
+      margin: 0 0 9px;
+      color: #344250;
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .meta-grid, .card-grid, .facts {
+        grid-template-columns: 1fr;
+      }
+
+      table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+
+      .source-list {
+        columns: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="eyebrow">Research snapshot: 11 May 2026</div>
+      <h1>Weekly gymnastics options for a 6-year-old and a 9-year-old near Sankt Hans Torv</h1>
+      <p class="lead">Ranked by proximity, weekday fit, likely age fit, and whether both children can train at roughly the same time. The key caveat is that most clubs have not yet published their full fall 2026 / 2026-27 programs.</p>
+
+      <div class="meta-grid">
+        <div class="meta">
+          <div class="label">Home base</div>
+          <div class="value">Sankt Hans Torv, Copenhagen N</div>
+        </div>
+        <div class="meta">
+          <div class="label">Children</div>
+          <div class="value">Girls, age 6 and 9</div>
+        </div>
+        <div class="meta">
+          <div class="label">Preference</div>
+          <div class="value">Weekday classes, same time if possible</div>
+        </div>
+        <div class="meta">
+          <div class="label">Distance basis</div>
+          <div class="value">Approximate walking/biking distance from Sankt Hans Torv</div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2>Bottom Line</h2>
+      <div class="note">
+        The closest practical targets are <strong>GF81</strong>, <strong>HKG</strong>, and <strong>ODK</strong>. For truly simultaneous age-separated spring classes, <strong>Gymnastikforeningen Hermes</strong> has the cleanest current pattern, but it is much farther away in Flintholm. For fall 2026, set reminders for mid-June, 1 July, and early August 2026 because several clubs only publish or open registration shortly before the season.
+      </div>
+    </section>
+
+    <section>
+      <h2>Ranked Options</h2>
+      <div class="card-grid">
+        <article class="card">
+          <div class="badges">
+            <span class="badge best">Best nearby bet</span>
+            <span class="badge good">Weekday</span>
+            <span class="badge watch">2026/27 not yet confirmed</span>
+          </div>
+          <h3>1. GF81, Institut for Idræt</h3>
+          <div class="subtitle">Nørre Allé 57, Copenhagen N; about 0.8-1.0 km from Sankt Hans Torv</div>
+          <p>GF81 is very close and inexpensive. The current schedule lists Spring Mini for ages 4-9 and Spring Max for ages 9-14, with weekday slots. This is the most convenient option if the fall 2026 schedule resembles the current one.</p>
+          <div class="facts">
+            <div class="fact"><div class="k">Current relevant classes</div><div class="v">Spring Mini 4-9: Mon 16:30-18:00; Spring Max 9-14: Tue 16:30-18:00; TeamGym 9+: Wed 17:30-19:00. Thursday expansion is listed if demand is high.</div></div>
+            <div class="fact"><div class="k">Both at same time?</div><div class="v">Possible if Thursday age-group expansion runs; otherwise close but not same day.</div></div>
+            <div class="fact"><div class="k">Cost</div><div class="v">Season price listed as 700 kr.</div></div>
+            <div class="fact"><div class="k">Registration</div><div class="v">No fall 2026 opening/closing date published. Current site says trial lessons via Motivu, then enrollment in Conventus; likely first-come/full.</div></div>
+          </div>
+          <p class="recommendation">Action: email GF81 in June and ask whether Spring Mini and Spring Max will run in parallel on Thursdays in fall 2026.</p>
+          <p class="small">Sources: <a href="https://gf81.dk/">GF81 front page</a>, <a href="https://gf81.dk/tilmelding-og-hold/">GF81 hold schedule</a>, <a href="https://gf81.dk/sted-og-tid/">GF81 location and holidays</a>.</p>
+        </article>
+
+        <article class="card">
+          <div class="badges">
+            <span class="badge best">Closest</span>
+            <span class="badge good">Weekday</span>
+            <span class="badge watch">Fall 2026 not published</span>
+          </div>
+          <h3>2. HKG Gymnastik, Blågård Skole</h3>
+          <div class="subtitle">Hans Tavsens Gade 4, Copenhagen N; about 0.5-0.7 km from Sankt Hans Torv</div>
+          <p>HKG is the nearest club and has beginner spring from age 6. It is less clearly age-separated than ODK or Hermes, but it is very practical geographically.</p>
+          <div class="facts">
+            <div class="fact"><div class="k">Current relevant classes</div><div class="v">Spring piger begynder from age 6: Wed 17:45-19:15. Spring øvede from age 7: Tue 17:45-19:15. Børnehold 4-6: Mon 16:30-17:45.</div></div>
+            <div class="fact"><div class="k">Both at same time?</div><div class="v">Yes, if both attend the same beginner spring class. Not ideal if you want separate age groups.</div></div>
+            <div class="fact"><div class="k">Cost</div><div class="v">Spring classes listed at 700 kr.; 4-6 children’s half-year class listed at 400 kr.</div></div>
+            <div class="fact"><div class="k">Registration</div><div class="v">Fall 2026 dates not published. Current info says active gymnasts get email, new gymnasts create a profile, and HKG holds open house on the last Sunday in August.</div></div>
+          </div>
+          <p class="recommendation">Action: treat HKG as the easiest fallback. Check in late August; if they repeat the open-house pattern, that would be Sunday 30 August 2026.</p>
+          <p class="small">Sources: <a href="https://hkg-gymnastik.klub-modul.dk/">HKG front page</a>, <a href="https://hkg-gymnastik.klub-modul.dk/cms/TeamOverviewProgramList.aspx">HKG program</a>, <a href="https://www.hkg-gymnastik.dk/2info.html">HKG parent information</a>.</p>
+        </article>
+
+        <article class="card">
+          <div class="badges">
+            <span class="badge good">Strong weekday choice</span>
+            <span class="badge good">Good registration info</span>
+            <span class="badge watch">Often waitlisted</span>
+          </div>
+          <h3>3. Gymnastikforeningen ODK</h3>
+          <div class="subtitle">Skolen ved Søerne, Hermeshallen, Skolen på La Cours Vej; roughly 0.9-2.3 km depending on venue</div>
+          <p>ODK has many age-specific children’s gymnastics and spring classes, including several weekday options. The trade-off is that many relevant classes are consecutive rather than simultaneous, and popular classes may already be waitlisted.</p>
+          <div class="facts">
+            <div class="fact"><div class="k">Current relevant classes</div><div class="v">Springpiger 0.-1. kl. Tue 16:30-17:30 or 17:30-18:30; Springpiger 2.-3. kl. Tue 17:30-19:00 or 18:30-19:30; Spring/rytme 0.-2. kl. Thu 17:30-19:00; ODK Kids 7-9 Sun 12:00-13:15.</div></div>
+            <div class="fact"><div class="k">Both at same time?</div><div class="v">Usually no. Best fit is consecutive Tuesday classes at the same venue, or one mixed 6-8/7-9 class depending on school year.</div></div>
+            <div class="fact"><div class="k">Cost</div><div class="v">Relevant current prices range from 825 kr. to 1,850 kr.; short summer-gymnastics listings are 250 kr.</div></div>
+            <div class="fact"><div class="k">Registration</div><div class="v">For 2025/26, the list started updating from 1 July 2025. Børnegymnastik opened 6 Aug 2025 at 18:00 for returning members and 13 Aug 2025 at 18:00 for new members. Fall 2026 dates not yet published.</div></div>
+          </div>
+          <p class="recommendation">Action: this is the best organized registration target. Check from 1 July 2026, then be ready for the likely early-August opening window.</p>
+          <p class="small">Sources: <a href="https://odk.dk/gymnastikforeningen-odk-har-mange-slags-gymnastik/">ODK gymnastics overview</a>, <a href="https://odk.foreninglet.dk/memberportal/enrollment">ODK enrollment page</a>.</p>
+        </article>
+
+        <article class="card">
+          <div class="badges">
+            <span class="badge good">Best simultaneous age split</span>
+            <span class="badge weak">Farther away</span>
+          </div>
+          <h3>4. Gymnastikforeningen Hermes</h3>
+          <div class="subtitle">Flintholm Svømmehal / KU.BE, Frederiksberg; about 4.5-5.5 km by bike from Sankt Hans Torv</div>
+          <p>Hermes has the clearest current setup for two children in different age groups at exactly the same time: Spring 6-8 and Spring 8-10 currently run in parallel on weekdays. It is much less convenient geographically.</p>
+          <div class="facts">
+            <div class="fact"><div class="k">Current relevant classes</div><div class="v">Spring 6-8 and Spring 8-10: Mon 16:00-17:00 and Wed 16:00-17:00. KIG 6-8 and KIG 8-10: Mon 17:00-18:30.</div></div>
+            <div class="fact"><div class="k">Both at same time?</div><div class="v">Yes, based on current schedule. This is the cleanest age-separated option.</div></div>
+            <div class="fact"><div class="k">Cost</div><div class="v">Spring 6-8 / 8-10 listed at 2,800 kr.; KIG 6-8 / 8-10 listed at 3,500 kr.</div></div>
+            <div class="fact"><div class="k">Registration</div><div class="v">Fall 2026 dates not published. Current program says new-member registrations before 16 June 2025 at 18:00 could be annulled; no closing date listed beyond full/waitlist.</div></div>
+          </div>
+          <p class="recommendation">Action: use Hermes if simultaneous classes matter more than distance. Check around mid-June 2026 for new-member timing.</p>
+          <p class="small">Sources: <a href="https://hermesgf.klub-modul.dk/cms/TeamOverviewProgramList.aspx?newseason=1">Hermes program</a>, <a href="https://hermesgf.klub-modul.dk/teamoverviewplan.aspx">Hermes hold overview</a>, <a href="https://motivu.dk/klubber/590/gymnastikforeningen-hermes">Hermes Motivu profile</a>.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>At-a-Glance Comparison</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Club</th>
+            <th>Distance</th>
+            <th>Age fit</th>
+            <th>Weekday fit</th>
+            <th>Registration</th>
+            <th>Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="rank">1</td>
+            <td>GF81</td>
+            <td>About 0.8-1.0 km</td>
+            <td>6-year-old: Spring Mini. 9-year-old: Spring Mini, Spring Max, or TeamGym.</td>
+            <td>Very good; weekday classes. Same-time depends on Thursday expansion or 2026 schedule.</td>
+            <td>No fall 2026 date posted. Trial lessons plus Conventus enrollment; likely closes when full.</td>
+            <td>700 kr.</td>
+          </tr>
+          <tr>
+            <td class="rank">2</td>
+            <td>HKG</td>
+            <td>About 0.5-0.7 km</td>
+            <td>6-year-old: children’s or beginner spring. 9-year-old: beginner or øvede spring.</td>
+            <td>Good; same class possible, separate age groups unclear.</td>
+            <td>No fall 2026 date posted. Open-house pattern: last Sunday in August; closes when full/not listed.</td>
+            <td>400-900 kr. depending on class; beginner spring 700 kr.</td>
+          </tr>
+          <tr>
+            <td class="rank">3</td>
+            <td>ODK</td>
+            <td>About 0.9-2.3 km for relevant venues</td>
+            <td>Strong; many school-year-specific options.</td>
+            <td>Good weekday coverage; many options consecutive, not simultaneous.</td>
+            <td>2025/26: list from 1 July, children’s gymnastics opened 6/13 Aug at 18:00. 2026/27 not posted.</td>
+            <td>825-1,850 kr.; some summer listings 250 kr.</td>
+          </tr>
+          <tr>
+            <td class="rank">4</td>
+            <td>Hermes</td>
+            <td>About 4.5-5.5 km by bike</td>
+            <td>Excellent; Spring 6-8 and 8-10 plus KIG 6-8 and 8-10.</td>
+            <td>Excellent same-time fit on current Monday/Wednesday schedule.</td>
+            <td>2026/27 not posted. Current new-member timing appears to start after 16 June at 18:00; closes when full.</td>
+            <td>2,800-3,500 kr.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Weaker or Excluded Options</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Option</th>
+            <th>Why it is weaker</th>
+            <th>Useful details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>GIF Gymnastik Gladsaxe</td>
+            <td>Good age fit, but much farther from Sankt Hans Torv.</td>
+            <td>Current Springpiger 6-9 listings show weekday classes and a full-season price around 1,875 kr., but venues are in Gladsaxe/Søborg.</td>
+          </tr>
+          <tr>
+            <td>DGI Byen camps</td>
+            <td>Not weekly fall classes.</td>
+            <td>DGI lists gymnastics camps for ages 6-10, useful for school holidays but not a weekly after-school solution.</td>
+          </tr>
+          <tr>
+            <td>PI Gymnastik</td>
+            <td>Not a match for ages 6 and 9.</td>
+            <td>PI’s FAQ says they do not offer children’s classes beyond a family class for roughly ages 3-5.</td>
+          </tr>
+          <tr>
+            <td>KG66 / Kastrup</td>
+            <td>Too far and not a good beginner/weeknight match.</td>
+            <td>Relevant search result was a selected/closed Mini team for ages 9-12 at Kastrup Gymnastikhal.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Recommended Calendar Reminders</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>What to check</th>
+            <th>Why</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mid-June 2026</td>
+            <td>Hermes and GF81</td>
+            <td>Hermes current registration rules reference 16 June at 18:00 for new members; GF81 may start updating after the current season.</td>
+          </tr>
+          <tr>
+            <td>1 July 2026</td>
+            <td>ODK enrollment page</td>
+            <td>ODK says the 2025/26 hold list began updating from 1 July 2025.</td>
+          </tr>
+          <tr>
+            <td>Early August 2026</td>
+            <td>ODK registration opening</td>
+            <td>For 2025/26, children’s gymnastics opened in early August for returning members and one week later for new members.</td>
+          </tr>
+          <tr>
+            <td>Late August 2026</td>
+            <td>HKG open house and final fall program</td>
+            <td>HKG states that new gymnasts can attend open house on the last Sunday in August.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Sources Checked</h2>
+      <ul class="source-list">
+        <li><a href="https://gf81.dk/">GF81 front page</a> and <a href="https://gf81.dk/tilmelding-og-hold/">GF81 hold schedule</a>.</li>
+        <li><a href="https://gf81.dk/sted-og-tid/">GF81 training location and holiday page</a>.</li>
+        <li><a href="https://hkg-gymnastik.klub-modul.dk/">HKG front page</a> and <a href="https://hkg-gymnastik.klub-modul.dk/cms/TeamOverviewProgramList.aspx">HKG program</a>.</li>
+        <li><a href="https://www.hkg-gymnastik.dk/2info.html">HKG parent/new gymnast information</a>.</li>
+        <li><a href="https://odk.dk/gymnastikforeningen-odk-har-mange-slags-gymnastik/">ODK overview</a> and <a href="https://odk.foreninglet.dk/memberportal/enrollment">ODK enrollment page</a>.</li>
+        <li><a href="https://hermesgf.klub-modul.dk/cms/TeamOverviewProgramList.aspx?newseason=1">Hermes program list</a> and <a href="https://hermesgf.klub-modul.dk/teamoverviewplan.aspx">Hermes hold overview</a>.</li>
+        <li><a href="https://motivu.dk/klubber/590/gymnastikforeningen-hermes">Hermes Motivu profile</a>.</li>
+        <li><a href="https://pigymnastik.dk/faqs/">PI Gymnastik FAQ</a>.</li>
+      </ul>
+      <p class="small">Note: Club pages often reuse the current season’s system until the next season is ready. Any 2026/27 dates marked as “likely” or “expected” are inferred from published 2025/26 registration rules, not announced 2026/27 facts.</p>
+    </section>
+  </main>
+</body>
+</html>
