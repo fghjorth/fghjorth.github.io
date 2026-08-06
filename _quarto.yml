@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: _site
+  # Quarto only copies files that a document references or that are listed here.
+  # The 12 conference decks at the repo root are referenced by nothing — without
+  # the "*.pdf" glob they would silently disappear from the built site, and those
+  # URLs have been handed out at talks. Do not remove these.
+  resources:
+    - "*.pdf"
+    - "papers/*.pdf"
+    - "teaching/*.pdf"
+    - "workingpapers/*.pdf"
+    - "data/*.csv"
+    - "img/*.png"
+    - "avatar.jpg"
+
+website:
+  title: "Frederik Hjorth"
+  site-url: "https://fghjorth.github.io"
+  description: "Frederik Hjorth's personal website"
+  open-graph: true
+  search: false
+  navbar:
+    title: "Frederik Hjorth"
+    right:
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "Working papers"
+        href: workingpapers/index.qmd
+      - text: "Teaching"
+        href: teaching/index.qmd
+      - text: "Data"
+        href: data/index.qmd
+      - text: "Contact"
+        href: contact/index.qmd
+  page-footer:
+    left: "Frederik Hjorth · University of Copenhagen"
+    right:
+      - text: "Scholar"
+        href: "https://scholar.google.com/citations?user=gRyjUuwAAAAJ"
+      - text: "GitHub"
+        href: "https://github.com/fghjorth"
+      - text: "Email"
+        href: "mailto:fh@ifs.ku.dk"
+
+format:
+  html:
+    theme: [litera, custom.scss]
+    toc: false
+    anchor-sections: true
+    link-external-newwindow: false
+    grid:
+      body-width: 780px
+      sidebar-width: 0px
+      margin-width: 0px
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">

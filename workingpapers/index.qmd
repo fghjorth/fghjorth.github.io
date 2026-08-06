@@ -1,0 +1,49 @@
+---
+title: "Working papers"
+---
+
+::: {.entry}
+::: {.gutter}
+Under review
+:::
+::: {.entry-body}
+### Elite Rhetoric and the Running Tally of Party-Group Linkages
+
+::: {.meta}
+With Christoffer Dausgaard
+:::
+
+![](/img/runningtally.png)
+
+::: {.abstract}
+Parties' linkages to social groups are key to electoral competition. While traditionally explained in terms of long-standing social cleavages, newer theories assign some role to parties in shaping group linkages. We argue that party elites have even more influence over group linkages than afforded in existing accounts: citizens keep 'running tallies' of group linkages and continuously update them in response to group appeals in elite rhetoric. To test this theory, we develop a novel automated approach that uses language models to measure group appeals observationally. Using data from the UK, we connect citizens' perceived group linkages in surveys to group appeals in parliamentary speech spanning three decades. We find that group linkages robustly track party elites' rhetoric. Auxiliary analyses test heterogeneity across group types and the moderating role of policy information. Our findings imply that party elites have considerable power to shape group linkages, even in the short run.
+:::
+
+::: {.links}
+[Link to paper](/workingpapers/runningtally.pdf)
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+R&R [CPS]{.status}
+:::
+::: {.entry-body}
+### Losing Touch: The Rhetorical Cost of Governing
+
+::: {.meta}
+Revise and resubmit, *Comparative Political Studies*
+:::
+
+![](/img/losingtouch.png)
+
+::: {.abstract}
+Governments lose votes over time. This regularity is so well-documented that the 'cost of governing' is widely considered a law-like phenomenon. However, our understanding of the causes of the cost of governing is incomplete. This paper presents a novel perspective on this question, considering how rhetorical constraints impose costs on governments. Specifically, I argue that while legislators generally seek to satisfy voter demands for maximal rhetorical simplicity, the functional demands of running government compel legislators to speak less simply when serving in government. This structural condition provides the opposition with a rhetorical advantage vis-à-vis the government, eventually leading to electoral losses for the incumbent government. I refer to this as 'the rhetorical cost of governing'. I test this theory in the context of the Danish parliament, from which I combine rich data on individual legislator careers with the complete record of parliamentary speech across three decades. Consistent with the theory, legislators speak with reduced simplicity while serving in government. Additional analyses suggest the effect is driven by constraints on government members' issue emphasis. The results add to our understanding of the cost of governing and the drivers of mass grievances fueling populist political movements.
+:::
+
+::: {.links}
+[Link to paper](https://osf.io/r53gj)
+:::
+:::
+:::

@@ -1,0 +1,61 @@
+---
+title: "Contact"
+---
+
+::: {.deflist-row}
+::: {.key}
+Email
+:::
+::: {.val}
+[fh@ifs.ku.dk](mailto:fh@ifs.ku.dk)
+
+[frederikhjorth@gmail.com](mailto:frederikhjorth@gmail.com)
+:::
+:::
+
+::: {.deflist-row}
+::: {.key}
+Phone
+:::
+::: {.val .tnum}
+(+45) 35 32 41 04 / 26 27 24 41
+:::
+:::
+
+::: {.deflist-row}
+::: {.key}
+Office
+:::
+::: {.val}
+University of Copenhagen's [City Campus](https://osm.org/go/0NWvBRt_8), office 18.2.14.
+:::
+:::
+
+::: {.deflist-row}
+::: {.key}
+Office hours
+:::
+::: {.val}
+Thursdays 1pm–2pm. [Book an appointment](https://calendly.com/fhifs/15min).
+
+Zoom: <https://ucph-ku.zoom.us/j/5108460xxx> — email me for the last three digits.
+:::
+:::
+
+::: {.deflist-row}
+::: {.key}
+Elsewhere
+:::
+::: {.val}
+[Google Scholar](https://scholar.google.com/citations?user=gRyjUuwAAAAJ) · [GitHub](https://github.com/fghjorth) · [Twitter](http://twitter.com/fghjorth)
+:::
+:::
+
+::: {.deflist-row}
+::: {.key}
+ORCID
+:::
+::: {.val .tnum}
+[0000-0003-4063-4983](https://orcid.org/0000-0003-4063-4983)
+:::
+:::

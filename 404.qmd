@@ -1,0 +1,10 @@
+---
+title: "Page not found"
+---
+
+The page you're looking for doesn't exist. It may have moved when this site was
+rebuilt.
+
+Try the [publications](/publications/), [working papers](/workingpapers/),
+[teaching](/teaching/), or [data](/data/) pages — or head back to the
+[front page](/).

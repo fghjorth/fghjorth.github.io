@@ -1,0 +1,48 @@
+name: Publish site
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race each other.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The repo carries ~130MB of conference PDFs; .git is over 150MB.
+          # A shallow clone keeps CI from pulling all of that history.
+          fetch-depth: 1
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      # Content is plain markdown — no R or Jupyter, so nothing else to install.
+      - name: Render site
+        run: quarto render
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,305 @@
+---
+title: "Publications"
+---
+
+::: {.entry}
+::: {.gutter}
+PSRM [Cond. accepted]{.status}
+:::
+::: {.entry-body}
+### Partisan Conflict in Nonverbal Communication
+
+::: {.meta}
+With Mathias Rask · *Political Science Research and Methods*
+:::
+
+![](/img/nonverbal.png)
+
+::: {.abstract}
+In multiparty systems, parties signal conflict through communication, yet standard approaches to measuring partisan conflict in communication consider only the verbal dimension. We expand the study of partisan conflict to the nonverbal dimension by developing a measure of nonverbal conflict signaling based on variation in speakers' vocal pitch. We demonstrate our approach using comprehensive audio data from parliamentary debates in Denmark spanning more than two decades. We find that nonverbal conflict signals reflect prevailing patterns of partisan polarization and predict subsequent legislative behavior. Moreover, we show that consistent with a strategic model of behavior, nonverbal conflict signals track the electoral and policy incentives faced by legislators. All results persist when we account for the verbal content of speech. By documenting a novel dimension of elite communication of partisan conflict and providing evidence for the strategic use of nonverbal signals, our findings deepen our understanding of the nature of elite partisan communication.
+:::
+
+::: {.links}
+[Accepted version](/papers/nonverbal.pdf)
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+JOP [Forthcoming]{.status}
+:::
+::: {.entry-body}
+### Reining in the Rascals: Challenger Parties' Path to Power
+
+::: {.meta}
+With Jacob Nyrup and Martin Vinæs Larsen · *The Journal of Politics*
+:::
+
+![](/img/rascals.png)
+
+::: {.abstract}
+Challenger parties, i.e. parties without prior government experience, have transformed politics in Europe and beyond, some eventually joining governing coalitions. However, the process by which challenger parties gain access to power remains unclear. We argue that holding elected office in itself improves challenger parties' chances of entering government. We find support for this expectation in cross-sectional, national-level data. To establish causality, we apply a regression discontinuity design to an original data set of more than 2,500 elections and 15,000 committee assignments from local governments in Denmark. We show that legislative incumbency increases challenger parties' access to government in the following electoral term. Lastly, using data from candidate surveys, we show that incumbent challenger parties take more moderate positions and use more mainstream language, consistent with a moderation mechanism. Our findings shed new light on the causes of challenger party success and, more broadly, the centripetal forces driving party system change.
+:::
+
+::: {.links}
+[Accepted version](https://osf.io/q7eys/)
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+APSR
+:::
+::: {.entry-body}
+### Do Violent Protests Affect Expressions of Party Identity? Evidence from the Capitol Insurrection
+
+::: {.meta}
+With Gregory Eady and Peter Thisted Dinesen · *American Political Science Review*
+:::
+
+![](/img/capitol.png)
+
+::: {.abstract}
+The insurrection at the United States Capitol on January 6, 2021 was the most dramatic contemporary manifestation of deep political polarization in the United States. Recent research shows that violent protests shape political behavior and attachments, but several questions remain unanswered. Using day-level panel data from a large sample of US social media users to track changes in the identities expressed in their Twitter biographies, we show that the Capitol insurrection caused a large-scale decrease in outward expressions of identification with the Republican Party and Donald Trump with no indication of re-identification in the weeks that followed. This finding suggests that there are limits to party loyalty: a violent attack on democratic institutions sets boundaries on partisanship, even among avowed partisans. Further, the finding that political violence can deflect co-partisans carries the potential positive democratic implication that those who encourage or associate themselves with such violence pay a political cost.
+:::
+
+::: {.links}
+[Published version](https://www.cambridge.org/core/journals/american-political-science-review/article/do-violent-protests-affect-expressions-of-party-identity-evidence-from-the-capitol-insurrection/76D0502E7C5A83D3900DE42C5FDCA8EE)
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+JOP
+:::
+::: {.entry-body}
+### Sheltering Populists? House Prices and the Support for Populist Parties
+
+::: {.meta}
+With Ben Ansell, Jacob Nyrup, and Martin Vinæs Larsen · *The Journal of Politics*
+:::
+
+![](/img/sheltering.png)
+
+::: {.abstract}
+Populist parties, particularly from the right of the political spectrum, have sharply increased their electoral support in recent years, creating great media and scholarly interest. In this article we suggest that the housing market may have been important in defining who switched to populist voting and where they were located. We build on existing work that connects house prices to "first-dimension politics" of redistribution and classic left-right political identification to argue that house prices might also shape preferences on the "second dimension" of politics: support for populist nationalism versus liberal cosmopolitanism. Using both novel precinct- and individual-level data from Denmark, we show that negative shocks to house prices over the election cycle are strongly associated with shifts to support for the Danish People's Party, a pattern that has amplified over recent elections. We then turn to corroborate this relationship using local housing data in Sweden, Norway, and Finland.
+:::
+
+::: {.links}
+[Published version](https://www.journals.uchicago.edu/doi/full/10.1086/718354)
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+BJPS
+:::
+::: {.entry-body}
+### When Does Accommodation Work? Electoral Effects of Mainstream Left Position Taking on Immigration
+
+::: {.meta}
+With Martin Vinæs Larsen · *British Journal of Political Science*
+:::
+
+![](/img/accommodation.png)
+
+::: {.abstract}
+In many countries, right-wing populist parties have gained electoral support by attracting voters from mainstream left parties. This has prompted public and scholarly debate about whether mainstream left parties can regain political power by taking a more restrictive position on immigration, a so-called accommodation strategy. However, selection bias confounds observational estimates of the effectiveness of this strategy. This letter reports the results of a survey experiment conducted among Danish voters during a unique political situation in which the mainstream left party's position on immigration is ambiguous, enabling experimental manipulation of voters' perceptions of the party's position. The authors show that, consistent with spatial models of politics, accommodation attracts anti-immigration voters and repels pro-immigration voters. Because repelled voters defect to other left parties, while attracted voters come from right parties, accommodation increases overall support for parties that support a mainstream left government. The results demonstrate that in some contexts, accommodation can improve the political prospects of the mainstream left.
+:::
+
+::: {.links}
+[Published version](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/abs/when-does-accommodation-work-electoral-effects-of-mainstream-left-position-taking-on-immigration/635035541EF9781C0B002F47FC7F965C) · [Ungated version](/papers/accommodation.pdf) · [Replication data](https://dataverse.harvard.edu/dataverse/BJPolS)
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+BJPS
+:::
+::: {.entry-body}
+### The Influence of Local Ethnic Diversity on Group-Centric Crime Attitudes
+
+::: {.meta}
+*British Journal of Political Science*
+:::
+
+![](/img/crime.png)
+
+::: {.abstract}
+Several studies provide evidence of group-centric policy attitudes, that is, citizens evaluating policies based on linkages with visible social groups. The existing literature generally points to the role of media imagery, rhetoric and prominent political sponsors in driving group-centric attitudes. This article theorizes and tests an alternative source: exposure to rising local ethnic diversity. Focusing on the issue of crime, it first develops a theoretical account of how casual observation in the local context can give rise to ethnic stereotypes. Then, using two large, nationally representative datasets on citizen group and policy attitudes linked with registry data on local ethnic diversity, each spanning 20 years, it shows that crime attitudes become more strongly linked with immigration attitudes as local ethnic diversity rises. The results suggest that the typically emphasized 'top-down' influence on group-centric attitudes by elite actors is complemented by 'bottom-up' local processes of experiential learning about group–policy linkages.
+:::
+
+::: {.links}
+[Published version](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/influence-of-local-ethnic-diversity-on-groupcentric-crime-attitudes/865E1BA1F2ECC98D5342E0508FB29801) · [Ungated version](/papers/crime_bjpols.pdf) · [Replication data](https://dataverse.harvard.edu/dataverse/BJPolS)
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+APSR
+:::
+::: {.entry-body}
+### When Do Citizens Respond Politically to the Local Economy? Evidence from Registry Data on Local Housing Markets
+
+::: {.meta}
+With Martin Vinæs Larsen, Peter Thisted Dinesen, and Kim Sønderskov · *American Political Science Review*
+:::
+
+![](/img/housing.png)
+
+::: {.links}
+[Published version](https://doi.org/10.1017/S0003055419000029) · [Ungated version](/papers/housing.pdf) · [Replication data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EKZQSZ)
+:::
+:::
+:::
+
+::: {.cite}
+::: {.gutter}
+J. Comm. [2019]{.status}
+:::
+::: {.cite-body}
+[Ideological Asymmetry in the Reach of Pro-Russian Digital Disinformation to US Audiences](https://academic.oup.com/joc/article-abstract/69/2/168/5425470){.title-link}. *Journal of Communication*, 69(2), 168–192. With Rebecca Adler-Nissen.
+:::
+:::
+
+::: {.cite}
+::: {.gutter}
+AEJ:EP [2019]{.status}
+:::
+::: {.cite-body}
+[Sustaining Honesty in Public Service: The Role of Selection](https://www.aeaweb.org/articles?id=10.1257/pol.20170688){.title-link}. *American Economic Journal: Economic Policy*, 11(4), 96–123. With Sebastian Barfort, Nikolaj Harmon, and Asmus Leth Olsen.
+
+::: {.links}
+[Ungated version](http://web.econ.ku.dk/nharmon/docs/barfort2015sustaining.pdf)
+:::
+:::
+:::
+
+::: {.section-head}
+## Forskning & formidling på dansk
+:::
+
+::: {.cite}
+::: {.gutter}
+Ø&P [2019]{.status}
+:::
+::: {.cite-body}
+[Affektiv Polarisering i Danmark: Et Listeeksperiment om Social Distance til Politiske Modstandere](https://www.djoef-forlag.dk/openaccess/oep/files/2019/3_2019/3_2019_4.pdf){.title-link}. *Økonomi & Politik*, 92(3). Med Peter Thisted Dinesen og Kim Mannemar Sønderskov.
+:::
+:::
+
+::: {.cite}
+::: {.gutter}
+Samf. [2019]{.status}
+:::
+::: {.cite-body}
+[Trump som issue-entreprenør](https://www.djoef-forlag.dk/openaccess/samf/samfdocs/2019/2019_3/Samf_4_3_2019.pdf){.title-link}. *Samfundsøkonomen*, no. 3.
+:::
+:::
+
+::: {.cite}
+::: {.gutter}
+Politica
+:::
+::: {.cite-body}
+[Maskinlæring som politologisk værktøj](http://politica.dk/fileadmin/politica/Dokumenter/politica_51_2/bach_svejgaard_hjort.pdf){.title-link}. *Politica*, 51(2), 168–186. Med Alexander Bach & Jesper Svejgaard.
+:::
+:::
+
+::: {.cite}
+::: {.gutter}
+Kapitel
+:::
+::: {.cite-body}
+Issue voting ved folketingsvalget 2015. I [*Oprør fra udkanten — Folketingsvalget 2015*](https://www.djoef-forlag.dk/book-info/opror-fra-udkanten). Jurist- og Økonomforbundets Forlag.
+:::
+:::
+
+::: {.cite}
+::: {.gutter}
+Kapitel
+:::
+::: {.cite-body}
+Emneejerskab — hvilke partier ejer hvilke emner? I [*Oprør fra udkanten — Folketingsvalget 2015*](https://www.djoef-forlag.dk/book-info/opror-fra-udkanten). Jurist- og Økonomforbundets Forlag.
+:::
+:::
+
+::: {.cite}
+::: {.gutter}
+Kapitel
+:::
+::: {.cite-body}
+Meningsmålinger i valgkampen. Med Jens Olav Dahlgaard, Martin Vinæs Larsen & Asmus Leth Olsen. I [*Oprør fra udkanten — Folketingsvalget 2015*](https://www.djoef-forlag.dk/book-info/opror-fra-udkanten). Jurist- og Økonomforbundets Forlag.
+:::
+:::
+
+::: {.section-head}
+## Other publications
+:::
+
+::: {.cite}
+::: {.gutter}
+Handbook [Forthcoming]{.status}
+:::
+::: {.cite-body}
+[Attitudes toward Immigration: Theories, Settings, and Approaches](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190634131.001.0001/oxfordhb-9780190634131-e-26){.title-link}. *The Oxford Handbook of Behavioral Political Science*. With Peter Thisted Dinesen.
+
+::: {.links}
+[Ungated version](/papers/attitudes_bps_preprint.pdf)
+:::
+:::
+:::
+
+::: {.cite}
+::: {.gutter}
+JPART [2019]{.status}
+:::
+::: {.cite-body}
+[Behavioral Dishonesty in the Public Sector](https://academic.oup.com/jpart/advance-article/doi/10.1093/jopart/muy058/5123577){.title-link}. *Journal of Public Administration Research and Theory*, 29(4), 572–590. With Asmus Leth Olsen, Nikolaj Harmon, and Sebastian Barfort.
+:::
+:::
+
+::: {.cite}
+::: {.gutter}
+PRQ [2016]{.status}
+:::
+::: {.cite-body}
+[Intergroup Bias in Parliamentary Rule Enforcement](http://prq.sagepub.com/content/early/2016/08/01/1065912916658553.abstract){.title-link}. *Political Research Quarterly*, 69(4), 692–702.
+
+::: {.links}
+[Replication data](https://github.com/fghjorth/parlbias)
+:::
+:::
+:::
+
+::: {.cite}
+::: {.gutter}
+EUP [2016]{.status}
+:::
+::: {.cite-body}
+[Who benefits? Welfare chauvinism and national stereotypes](http://eup.sagepub.com/content/early/2015/10/14/1465116515607371){.title-link}. *European Union Politics*, 17(1), 3–24.
+
+::: {.links}
+[Replication data](https://github.com/fghjorth/whoben)
+:::
+:::
+:::
+
+::: {.cite}
+::: {.gutter}
+R&P [2015]{.status}
+:::
+::: {.cite-body}
+[Computers, coders, and voters: Comparing automated methods for estimating party positions](http://rap.sagepub.com/content/2/2/2053168015580476){.title-link}. *Research and Politics*. With Robert Klemmensen, Sara Hobolt, Martin Ejnar Hansen, and Peter Kurrild-Klitgaard.
+
+::: {.links}
+[Replication data](https://github.com/fghjorth/ccv)
+:::
+:::
+:::

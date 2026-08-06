@@ -1,0 +1,8 @@
+# Quarto build output — never committed. The GitHub Action renders the site and
+# publishes it straight to Pages, so nothing generated belongs in git.
+/_site/
+/.quarto/
+
+.DS_Store
+
+**/*.quarto_ipynb

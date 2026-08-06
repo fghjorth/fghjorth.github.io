@@ -1,0 +1,81 @@
+---
+title: "Teaching"
+---
+
+## Thesis writing
+
+I advise many students writing Master's theses. I've written a guide, [Writing a
+Master's Thesis In Four Not-So-Easy Steps](/teaching/thesiswritingguide.pdf),
+collecting my advice for students about to write a Master's thesis.
+
+Here's a link to an [M.Sc. Thesis
+Template](https://www.overleaf.com/read/hzsxfpdvjqzs).
+
+::: {.section-head}
+## Courses taught
+:::
+
+::: {.entry}
+::: {.gutter}
+2020, 2022
+:::
+::: {.entry-body}
+### [Political Behavior](http://fghjorth.github.io/politicalbehaviorcourse)
+
+::: {.meta}
+Fall · Graduate course
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+2016–2018
+:::
+::: {.entry-body}
+### [Videregående kvantitative metoder i studiet af politisk adfærd](https://github.com/fghjorth/vkme18)
+
+::: {.meta}
+Fall · Graduate course on advanced quantitative methods
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+2019–2022
+:::
+::: {.entry-body}
+### Research methods 3 (*Metode 3*)
+
+::: {.meta}
+Spring · Undergraduate methods course
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+2016–2022
+:::
+::: {.entry-body}
+### Research methods 1 (*Metode 1*)
+
+::: {.meta}
+Fall 2016; Spring 2018–2022 · Undergraduate methods course
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+2011–2022
+:::
+::: {.entry-body}
+### Research methods 2 (*Metode 2*)
+
+::: {.meta}
+Spring 2011–2013, 2017; Fall 2018–2022 · Undergraduate methods course
+:::
+:::
+:::

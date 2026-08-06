@@ -1,0 +1,318 @@
+/*-- scss:defaults --*/
+
+// Typography. Cormorant Garamond for display, Lora for everything else —
+// the site is deliberately all-serif, no sans anywhere.
+$font-family-sans-serif: "Lora", Georgia, "Times New Roman", serif !default;
+$headings-font-family:   "Cormorant Garamond", Georgia, "Times New Roman", serif !default;
+$headings-font-weight:   600 !default;
+
+$font-size-root: 15.5px !default;
+$line-height-base: 1.6 !default;
+
+// Cormorant sets optically small, so headings run larger than usual.
+$h1-font-size: 2.2rem !default;
+$h2-font-size: 1.55rem !default;
+$h3-font-size: 1.34rem !default;
+$h4-font-size: 1.15rem !default;
+
+// Light-theme ground. Dark theme is handled with custom properties in
+// scss:rules below, since Bootstrap bakes these in at build time.
+$body-bg:    #f4f2ef !default;
+$body-color: #1d1b1a !default;
+
+// UCPH red — --ku-red in the university's own stylesheet (logo fill, footer).
+$link-color:       #901a1e !default;
+$link-hover-color: #6d1317 !default;
+
+$navbar-bg: #f4f2ef !default;
+
+/*-- scss:rules --*/
+
+:root {
+  --ground:   #f4f2ef;
+  --surface:  #ebe7e1;
+  --ink:      #1d1b1a;
+  --muted:    #6f6a64;
+  --faint:    #8d8781;
+  --accent:   #901a1e;
+  --accent-2: #6d1317;
+  --divider:  rgba(29, 27, 26, 0.14);
+  --rule:     rgba(29, 27, 26, 0.28);
+
+  --display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --serif:   "Lora", Georgia, "Times New Roman", serif;
+}
+
+// #901a1e sits at ~8:1 on the light ground but only ~2:1 on the dark one,
+// so dark mode uses a lightened tint at ~5:1.
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground:   #191817;
+    --surface:  #222020;
+    --ink:      #e9e5df;
+    --muted:    #9d968d;
+    --faint:    #837c74;
+    --accent:   #d06a6e;
+    --accent-2: #e08b8e;
+    --divider:  rgba(233, 229, 223, 0.16);
+    --rule:     rgba(233, 229, 223, 0.32);
+  }
+}
+
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .title {
+  font-family: var(--display);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.18;
+  text-wrap: balance;
+  color: var(--ink);
+}
+
+p { max-width: 66ch; }
+
+a {
+  color: var(--accent);
+  text-decoration-color: color-mix(in srgb, var(--accent) 38%, transparent);
+  text-underline-offset: 2px;
+}
+a:hover { color: var(--accent-2); text-decoration-color: currentColor; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+/* ---------- navbar ---------- */
+
+.navbar {
+  background: color-mix(in srgb, var(--ground) 92%, transparent) !important;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--divider);
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+// Hold the navbar to the same measure as the body so brand and links line up
+// with the content column instead of hugging the viewport edges.
+.navbar .navbar-container {
+  max-width: 780px;
+  margin-inline: auto;
+  padding-inline: 0;
+}
+.navbar .navbar-brand {
+  font-family: var(--display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+}
+.navbar .nav-link {
+  font-family: var(--serif);
+  font-size: 0.855rem;
+  color: var(--muted) !important;
+  border-bottom: 1.5px solid transparent;
+  padding-bottom: 2px;
+}
+.navbar .nav-link:hover { color: var(--ink) !important; }
+.navbar .nav-link.active {
+  color: var(--ink) !important;
+  border-bottom-color: var(--accent);
+}
+
+/* ---------- home ---------- */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 176px;
+  gap: 3rem;
+  align-items: start;
+  margin-bottom: 2.5rem;
+}
+.hero-name {
+  font-family: var(--display);
+  font-size: 2.95rem;
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
+}
+.hero-role {
+  font-size: 0.855rem;
+  color: var(--muted);
+  line-height: 1.5;
+  max-width: 40ch;
+}
+.hero-name p, .hero-role p { margin-bottom: 0; }
+.hero > p { margin-bottom: 0; }
+.hero img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border: 1px solid var(--divider);
+}
+
+@media (max-width: 620px) {
+  .hero { grid-template-columns: 1fr; gap: 1.5rem; }
+  .hero img { max-width: 152px; }
+}
+
+/* ---------- entry lists ---------- */
+
+.entry,
+.cite {
+  display: grid;
+  grid-template-columns: 6.2em 1fr;
+  gap: 1.5rem;
+  border-top: 1px solid var(--divider);
+  align-items: start;
+}
+.entry { padding: 1.5rem 0; }
+.cite  { padding: 1rem 0; }
+
+.entry > .gutter,
+.cite > .gutter {
+  font-family: var(--display);
+  font-size: 1.02rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--accent);
+  line-height: 1.35;
+  padding-top: 4px;
+  font-variant-numeric: tabular-nums;
+}
+// Pandoc wraps the contents of every fenced div in a <p>. Zero those margins
+// so the grid rows align on their first baseline.
+.gutter p { margin-bottom: 0; }
+
+.gutter .status {
+  display: block;
+  color: var(--faint);
+  font-weight: 400;
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  margin-top: 2px;
+}
+
+.entry > .entry-body > :first-child { margin-top: 0; }
+.entry-body h3 {
+  font-size: 1.34rem;
+  line-height: 1.22;
+  letter-spacing: -0.012em;
+  text-wrap: pretty;
+  margin-bottom: 0.35rem;
+}
+// Keep red reserved for the gutter and inline links; a linked entry title stays
+// ink-coloured so it still reads as a heading.
+.entry-body h3 a {
+  color: var(--ink);
+  text-decoration-color: color-mix(in srgb, var(--ink) 30%, transparent);
+}
+.entry-body h3 a:hover { color: var(--accent); }
+
+.entry-body .meta {
+  font-size: 0.855rem;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+.entry-body .meta p { margin-bottom: 0; }
+
+.entry-body img {
+  max-width: 78%;
+  height: auto;
+  margin: 0;
+}
+.entry-body figure { margin: 0.5rem 0 0.9rem; }
+
+/* Abstracts stay open, so they are held down typographically to keep
+   titles dominant when scanning a long page. */
+.entry-body .abstract p {
+  font-size: 0.94rem;
+  line-height: 1.6;
+  color: var(--muted);
+  padding-left: 1rem;
+  border-left: 2px solid var(--divider);
+  max-width: 68ch;
+}
+
+.entry-body .links,
+.cite .links { font-size: 0.855rem; margin-top: 0.5rem; margin-bottom: 0; }
+.links p { margin-bottom: 0; }
+
+.cite > .cite-body { font-size: 0.94rem; line-height: 1.58; }
+.cite-body p { margin-bottom: 0.25rem; }
+.cite-body a.title-link {
+  font-family: var(--display);
+  font-size: 1.14rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+// Quarto already puts a rule under every h2. Recolour it to our palette and let
+// it be the only one — .section-head must not add a second.
+h2 {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.7rem;
+  margin-top: 3rem;
+  margin-bottom: 1.1rem;
+}
+#title-block-header + section > h2:first-child,
+#title-block-header + h2 { margin-top: 0; }
+
+.section-head {
+  margin: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.section-head h2 { margin-top: 3.5rem; }
+.section-head + .entry,
+.section-head + .cite { border-top: none; }
+
+/* ---------- contact / data ---------- */
+
+.deflist-row {
+  display: grid;
+  grid-template-columns: 8.5em 1fr;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--divider);
+  align-items: baseline;
+}
+.deflist-row > .key {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--faint);
+}
+.deflist-row > .key p { margin-bottom: 0; }
+.deflist-row > .val { font-size: 0.94rem; line-height: 1.6; }
+.deflist-row > .val p { margin-bottom: 0.35rem; }
+.deflist-row > .val p:last-child { margin-bottom: 0; }
+.tnum { font-variant-numeric: tabular-nums; }
+
+/* Quarto's page title block */
+#title-block-header { margin-bottom: 2rem; }
+#title-block-header .quarto-title-meta { display: none; }
+
+@media (max-width: 560px) {
+  .entry, .cite, .deflist-row { grid-template-columns: 1fr; gap: 0.5rem; }
+  .entry > .gutter, .cite > .gutter { padding-top: 0; }
+  .entry-body img { max-width: 100%; }
+}
+
+/* ---------- footer ---------- */
+
+.nav-footer {
+  border-top: 1px solid var(--divider);
+  background: var(--ground);
+  color: var(--faint);
+  font-size: 0.855rem;
+  margin-top: 4rem;
+}
+.nav-footer a { color: var(--faint); }
+.nav-footer a:hover { color: var(--accent); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}

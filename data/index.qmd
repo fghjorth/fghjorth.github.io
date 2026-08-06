@@ -1,0 +1,27 @@
+---
+title: "Data"
+---
+
+::: {.entry}
+::: {.gutter}
+v2 [Oct 2024]{.status}
+:::
+::: {.entry-body}
+### Danish Legislative Speech Corpus
+
+::: {.meta}
+1.7 million snippets · 1997–2024 · Harvard Dataverse
+:::
+
+Data set containing 1.7 million snippets of Danish legislative speech. Covers the
+universe of Danish legislative speech, 1997–2024. Version 2 of October 2024
+extends the data coverage to 2024.
+
+Please cite as: Hjorth, Frederik, 2024, "Danish Legislative Speech Corpus V2",
+Harvard Dataverse. URL: <https://doi.org/10.7910/DVN/PNCBKF>
+
+::: {.links}
+[Link to data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PNCBKF)
+:::
+:::
+:::
