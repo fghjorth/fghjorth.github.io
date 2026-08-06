@@ -140,13 +140,20 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
   align-items: start;
   margin-bottom: 2.5rem;
 }
+// The name is set the way Amir sets his: Cormorant Garamond at weight 400, not
+// the 600 used for every other heading. At 400 the face keeps its fine hairlines
+// and high stroke contrast; 600 thickens it and loses the character.
+// Matches his 66px / 400 / 1.02 / -0.015em.
 .hero-name {
   font-family: var(--display);
-  font-size: 2.95rem;
-  font-weight: 600;
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.75rem;
+  font-size: 4.25rem;
+  font-weight: 400;
+  line-height: 1.02;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.9rem;
+}
+@media (max-width: 620px) {
+  .hero-name { font-size: 3.1rem; }
 }
 .hero-role {
   font-size: 0.855rem;
