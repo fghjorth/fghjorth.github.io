@@ -7,6 +7,9 @@ $headings-font-family:   "Cormorant Garamond", Georgia, "Times New Roman", serif
 $headings-font-weight:   600 !default;
 
 $font-size-root: 15.5px !default;
+// Quarto defaults this to 1.1rem, which pushes body copy to ~17px and throws it
+// out of scale with the rem-based sizes below.
+$font-size-base: 1rem !default;
 $line-height-base: 1.6 !default;
 
 // Cormorant sets optically small, so headings run larger than usual.
@@ -15,9 +18,10 @@ $h2-font-size: 1.55rem !default;
 $h3-font-size: 1.34rem !default;
 $h4-font-size: 1.15rem !default;
 
-// Light-theme ground. Dark theme is handled with custom properties in
-// scss:rules below, since Bootstrap bakes these in at build time.
-$body-bg:    #f4f2ef !default;
+// Light-theme ground. White so the white-background figure PNGs blend into the
+// page instead of reading as grey blocks. Dark theme is handled with custom
+// properties in scss:rules below, since Bootstrap bakes these in at build time.
+$body-bg:    #ffffff !default;
 $body-color: #1d1b1a !default;
 
 // UCPH red — --ku-red in the university's own stylesheet (logo fill, footer).
@@ -29,15 +33,15 @@ $navbar-bg: #f4f2ef !default;
 /*-- scss:rules --*/
 
 :root {
-  --ground:   #f4f2ef;
-  --surface:  #ebe7e1;
+  --ground:   #ffffff;
+  --surface:  #f4f2ef;
   --ink:      #1d1b1a;
   --muted:    #6f6a64;
   --faint:    #8d8781;
   --accent:   #901a1e;
   --accent-2: #6d1317;
-  --divider:  rgba(29, 27, 26, 0.14);
-  --rule:     rgba(29, 27, 26, 0.28);
+  --divider:  rgba(29, 27, 26, 0.13);
+  --rule:     rgba(29, 27, 26, 0.26);
 
   --display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --serif:   "Lora", Georgia, "Times New Roman", serif;
@@ -75,7 +79,13 @@ h1, h2, h3, h4, h5, h6, .title {
   color: var(--ink);
 }
 
-p { max-width: 66ch; }
+// litera declares `p { font-family: Georgia, Cambria, ... }`, which overrides the
+// Lora inherited from body. Without this, every paragraph of running text on the
+// site silently renders in Georgia.
+p {
+  font-family: var(--serif);
+  max-width: 66ch;
+}
 
 a {
   color: var(--accent);
@@ -218,10 +228,20 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
 }
 .entry-body .meta p { margin-bottom: 0; }
 
+// Figures are white-background PNGs, so on the white ground they blend with no
+// visible edge. In dark mode they can't, so mount them on a deliberate white
+// plate rather than letting them read as accidental blocks.
 .entry-body img {
   max-width: 78%;
   height: auto;
   margin: 0;
+}
+@media (prefers-color-scheme: dark) {
+  .entry-body img {
+    background: #fff;
+    padding: 0.7rem;
+    border-radius: 2px;
+  }
 }
 .entry-body figure { margin: 0.5rem 0 0.9rem; }
 
