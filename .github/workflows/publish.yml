@@ -4,6 +4,12 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
+  # TEMPORARY — added 2026-08-06 during a GitHub Actions major outage that left
+  # the first deploy stuck in the queue. This retries automatically until the
+  # new site is live, then the `check` job below turns scheduled runs into
+  # no-ops. Safe to delete this `schedule:` block once the site is up.
+  schedule:
+    - cron: "*/20 * * * *"
 
 permissions:
   contents: read
@@ -16,7 +22,33 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Scheduled retries should do nothing once the site is actually live. Push and
+  # manual runs always proceed. The generator meta tag is the reliable marker —
+  # the font name only appears URL-encoded in the HTML, so don't grep for that.
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      needed: ${{ steps.q.outputs.needed }}
+    steps:
+      - id: q
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "needed=true" >> "$GITHUB_OUTPUT"
+            echo "Not a scheduled run — proceeding."
+            exit 0
+          fi
+          if curl -sfL --max-time 20 https://fghjorth.github.io/ \
+               | grep -q '<meta name="generator" content="quarto-'; then
+            echo "needed=false" >> "$GITHUB_OUTPUT"
+            echo "Site already serving the Quarto build — nothing to do."
+          else
+            echo "needed=true" >> "$GITHUB_OUTPUT"
+            echo "Still serving the old build — retrying deploy."
+          fi
+
   build:
+    needs: check
+    if: needs.check.outputs.needed == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
