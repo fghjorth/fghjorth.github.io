@@ -14,7 +14,7 @@ department's Danish and Comparative Politics research group.
 :::
 :::
 
-![](/avatar.jpg){fig-alt="Frederik Hjorth"}
+![](/portrait.jpg){fig-alt="Frederik Hjorth"}
 :::
 
 I am Associate Professor of Political Science at the [Department of Political

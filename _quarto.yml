@@ -12,6 +12,8 @@ project:
     - "workingpapers/*.pdf"
     - "data/*.csv"
     - "img/*.png"
+    - "portrait.jpg"
+    # Superseded by portrait.jpg but kept live — the old URL may be linked.
     - "avatar.jpg"
 
 website:
