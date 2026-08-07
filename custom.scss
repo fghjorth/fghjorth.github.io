@@ -80,10 +80,16 @@ h1, h2, h3, h4, h5, h6, .title {
 }
 
 // litera declares `p { font-family: Georgia, Cambria, ... }`, which overrides the
-// Lora inherited from body. Without this, every paragraph of running text on the
-// site silently renders in Georgia.
+// family inherited from body — without an override here, all running text
+// silently renders in Georgia.
+//
+// Use `inherit`, NOT `var(--serif)`. Pandoc wraps the contents of every fenced
+// div in a <p>, so a concrete family here also clobbers the display face on
+// .hero-name and .gutter, whose text lives in such a <p>. `inherit` beats
+// litera (same specificity, later in the cascade) while still letting a parent
+// set the face: body gives Lora, .hero-name and .gutter give Cormorant.
 p {
-  font-family: var(--serif);
+  font-family: inherit;
   max-width: 66ch;
 }
 
