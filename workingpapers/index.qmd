@@ -2,5 +2,53 @@
 title: "Working papers"
 ---
 
-No papers currently under review. Recent work appears on the
-[publications](/publications/) page as it is accepted.
+::: {.entry}
+::: {.gutter}
+2026
+:::
+::: {.entry-body}
+### Family Origins of Affective Polarization
+
+::: {.meta}
+With Stephan Dochow-Sondershaus and Kristian Bernt Karlson
+:::
+
+::: {.abstract}
+Affective polarization, dislike of political outgroups, is subject to widespread popular and scientific attention and often proposed as an explanation for social sorting and democratic deconsolidation. Previous research documents the social-psychological underpinnings of affective polarization and largely focuses on 'top-down' explanations emphasizing party elites and the media environment. In contrast to these prevailing accounts, we offer a 'bottom-up' explanation centering within-family primary socialization. We conduct a large, registry-linked survey in Denmark to retain substantial numbers of siblings. This unique data set allows for estimating sibling correlations, an estimate of the overall influence of the family environment and regional context that siblings share when growing up. Our findings reveal surprisingly high levels of sibling similarity, indicating that evaluations of political groups are strongly shaped by shared family environments. Our results also suggest that siblings are to the same extent influenced by factors related to parental background as they are to family or micro-local factors beyond parental background. Our findings challenge prevailing conceptions of the dominant causes of affective polarization.
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+2026
+:::
+::: {.entry-body}
+### When Parties Let Go: Party Control and Women's Electoral Success
+
+::: {.meta}
+With Olivia Levinsen, Frederik K. Kjøller, and Anna Lund Sørensen
+:::
+
+::: {.abstract}
+Women have historically been underrepresented in democratic politics and remain so in parliaments worldwide — raising concerns about democratic legitimacy and inviting the question: which institutions promote women's representation? Evidence on party control in proportional representation systems is mixed, partly due to a reliance on cross-country data with varying contextual factors. We exploit a unique feature of the Danish electoral system, where party control over the candidate pipeline varies within parties over time. Using a difference-in-difference design, we estimate the causal effects of adopting open lists on women's ranking and electoral success, drawing on comprehensive data covering all Danish postwar national candidates (1945-2022). We find that open lists significantly improve women's ranking and electoral success. This is initially concentrated among returning candidates and later increasingly reflected in candidate pool turnover. Our results suggest that letting go of party control can weaken men's incumbency advantage and enhance women's representation.
+:::
+:::
+:::
+
+::: {.entry}
+::: {.gutter}
+2026
+:::
+::: {.entry-body}
+### Do Worker MPs Represent Workers? Class Representation in Party-Centered Systems
+
+::: {.meta}
+With Frederik K. Kjøller, Olivia Levinsen, and Anna Lund Sørensen
+:::
+
+::: {.abstract}
+Candidates often campaign on their working-class roots, yet workers are underrepresented in legislatures, with consequences for democratic representation. How working-class politicians represent workers once in office remains unclear, especially in party-centered systems where party discipline compresses differences in roll-call voting. We argue that class background instead shapes representation through parliamentary speech, along three channels workers may value: keeping labor issues salient, speaking about labor policy with expertise, and aligning the issue agenda with worker voters' priorities. We test these expectations in Denmark, a historically unusual case of substantial working-class representation, linking MPs' backgrounds to parliamentary speeches and national election surveys, 1971–2015. Working-class MPs devote more attention to labor and speak about it with greater expertise, but are no more congruent with worker voters' broader agenda: they keep prioritizing labor even as worker voters' attention to it fades. In sum, worker MPs improve representation of labor, but not of worker voters.
+:::
+:::
+:::
