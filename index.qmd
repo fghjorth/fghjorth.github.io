@@ -17,32 +17,12 @@ department's Danish and Comparative Politics research group.
 ![](/portrait.jpg){fig-alt="Frederik Hjorth"}
 :::
 
-I am Associate Professor of Political Science at the [Department of Political
-Science](http://polsci.ku.dk/english/), [University of
-Copenhagen](http://www.ku.dk/english/), where I lead the department's Danish and
-Comparative Politics research group.
+I am Associate Professor of Political Science at the [Department of Political Science](http://polsci.ku.dk/english/), [University of Copenhagen](http://www.ku.dk/english/), where I lead the department's Danish and Comparative Politics research group.
 
-My research focuses on political behavior and party politics. Substantively, my
-current research focuses especially on how citizens and mainstream parties
-respond to the rise of notionally extreme parties, in particular right-wing
-populist parties. What are the causes and consequences of political responses to
-extreme parties? And how do extreme parties themselves enter the political
-mainstream?
+My research focuses on political behavior and party politics. Substantively, my current research focuses especially on how citizens and mainstream parties respond to the rise of notionally extreme parties, in particular right-wing populist parties. What are the causes and consequences of political responses to extreme parties? And how do extreme parties themselves enter the political mainstream?
 
-Methodologically I am especially interested in using unstructured data such as
-text, tweets, or online metadata to study politics. In addition to my position at
-the Department of Political Science, I am affiliated with the [Copenhagen Center
-for Social Data Science (SODAS)](https://sodas.ku.dk/).
+Methodologically I am especially interested in using unstructured data such as text, tweets, or online metadata to study politics. In addition to my position at the Department of Political Science, I am affiliated with the [Copenhagen Center for Social Data Science (SODAS)](https://sodas.ku.dk/).
 
-My work has appeared or is forthcoming in political science journals including
-*American Political Science Review*, *The Journal of Politics*, and *British
-Journal of Political Science*. I have also published in other social science
-journals including *American Economic Journal: Economic Policy*, *Journal of
-Communication*, and *Nature Human Behavior*. You can find a full list of my
-published work on the [publications](/publications/) page, which also includes
-links to replication data where available.
+My work has appeared or is forthcoming in political science journals including *American Political Science Review*, *The Journal of Politics*, *Political Science Research and Methods*, and *British Journal of Political Science*. I have also published in other social science journals including *American Economic Journal: Economic Policy*, *Journal of Communication*, and *Nature Human Behavior*. You can find a full list of my published work on the [publications](/publications/) page, which also includes links to replication data where available.
 
-My main non-academic interests are American and Danish politics, playing around
-with data in [R](http://www.r-project.org/), cooking, and football. I live in
-[Nørrebro, Copenhagen](http://www.openstreetmap.org/#map=13/55.6876/12.5478&layers=Q),
-with my three favorite people: my wife Ida and our daughters, Nora and Selma.
+My main non-academic interests are American and Danish politics, playing around with data in [R](http://www.r-project.org/), cooking, and football. I live in [Nørrebro, Copenhagen](http://www.openstreetmap.org/#map=13/55.6876/12.5478&layers=Q), with my three favorite people: my wife Ida and our daughters, Nora and Selma.
